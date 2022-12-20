@@ -1,5 +1,5 @@
 -- Change the path to the path of your workplace  (current path: Androids storage)
-local path = '/storage/emulated/0/Github/AdventofCode/2022/' 
+local path = '/storage/emulated/0/Github/AdventofCode/2022/inputs/' 
 
 ---@param inputs String the filename of the file 
 function getHighestCal(inputs) 

@@ -1,5 +1,5 @@
 -- Change the path to the path of your workplace  (current path: Androids storage) 
-local path = '/storage/emulated/0/Github/AdventofCode/2022/' 
+local path = '/storage/emulated/0/Github/AdventofCode/2022/inputs/' 
 
 local shapes = { 
     A = 1, X = 1, 
