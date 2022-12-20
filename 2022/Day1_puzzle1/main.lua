@@ -35,8 +35,15 @@ function getHighestCal(inputs)
     end
     table.sort(sorted, function (a, b) return a.cal > b.cal end) 
     
-    --print whose elf got the highest calories
-    print(string.format('Highest calories was %s carried by elf NO-%s', sorted[1].cal, sorted[1].id)) 
+    --print whose elf got the highest calories [Puzzle 1]
+    print(string.format('Puzzle1: elf NO-%s carried %s of calories', sorted[1].id, sorted[1].cal))
+    -- Puzzle 2
+    print(
+        string.format(
+            'Puzzle2: total calories of top 3 elves was %s',
+            sorted[1].cal + sorted[2].cal + sorted[3].cal
+        )
+    )
 end 
 
 -- Use the function inputs:[test_input.txt || input.txt]
